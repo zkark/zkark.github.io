@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zain Soliman – Robotics and Autonomous Systems</title>
+<meta name="description" content="Portfolio of Zain Soliman, robotics engineer and MSc student in Computer Science for Autonomous Systems at ELTE, Budapest.">
+<style>
+:root{color-scheme:light dark;--bg:#f2f5f7;--ink:#14212b;--mute:#4d5d69;--line:#c9d3da;--acc:#1b6a86;--surf:#e6ecf0}
+@media (prefers-color-scheme:dark){:root{--bg:#10181e;--ink:#e6edf1;--mute:#a2b1bb;--line:#2b3a45;--acc:#6cc0dc;--surf:#18242c}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--acc)}
+a:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:22px;flex-wrap:wrap;padding:20px 0;border-bottom:1px solid var(--line)}
+nav a{color:var(--ink);text-decoration:none;font-weight:600}
+nav a:hover{color:var(--acc)}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center;padding:56px 0 48px}
+h1{font:700 clamp(2.4rem,6vw,3.8rem)/1.05 Georgia,"Times New Roman",serif;margin:0 0 14px;letter-spacing:-.01em}
+.sub{font-size:1.2rem;color:var(--mute);margin:0 0 22px;max-width:30em}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 18px;border:2px solid var(--acc);border-radius:6px;text-decoration:none;font-weight:600}
+.btn.main{background:var(--acc);color:var(--bg)}
+.hand{width:100%;height:auto;color:var(--acc)}
+.hand line,.hand polyline{stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;opacity:.55}
+.hand circle{fill:var(--bg);stroke:currentColor;stroke-width:2.5}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font:700 1.7rem/1.2 Georgia,"Times New Roman",serif;margin:0 0 18px}
+p{margin:0 0 14px;max-width:46em}
+.proj{padding:18px 0 18px 18px;border-left:4px solid var(--acc);margin-bottom:22px;background:linear-gradient(90deg,var(--surf),transparent 70%)}
+.proj h3{margin:0 0 2px;font-size:1.2rem}
+.meta{color:var(--mute);font-size:.95rem;margin:0 0 8px}
+.proj p{margin-bottom:8px}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 24px;margin:0}
+dt{font-weight:700}
+dd{margin:0}
+footer{padding:28px 0 48px;color:var(--mute);border-top:1px solid var(--line);font-size:.95rem}
+@media (max-width:700px){.hero{grid-template-columns:1fr;padding-top:36px}.hand{max-width:240px}dl{grid-template-columns:1fr;gap:2px}dt{margin-top:10px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+<a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</nav>
+
+<header class="hero">
+<div>
+<h1>Zain Soliman</h1>
+<p class="sub">Robotics engineer and MSc student in Computer Science for Autonomous Systems at ELTE, Budapest. Computer vision, deep learning, and control.</p>
+<div class="btns">
+<a class="btn main" href="Zain_Soliman_CV.pdf">Download my CV</a>
+<a class="btn" href="https://github.com/zkark">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/zain-soliman-4410863a2/">LinkedIn</a>
+</div>
+</div>
+<!-- Add a profile photo here later: <img src="photo.jpg" alt="Zain Soliman"> -->
+<svg class="hand" id="hand" viewBox="0 0 200 200" role="img" aria-label="Diagram of 21 hand keypoints, as used in 3D hand pose estimation"></svg>
+</header>
+
+<section id="about">
+<h2>About me</h2>
+<p>I am Zain Soliman, a robotics engineer from Syria, based in Budapest. I completed a five-year B.Eng. in Robotics and Intelligent Systems at Manara University in 2025, with a Very Good mention in a selective cohort of 15 students. My graduation project, MirrorGlove, was a hand exoskeleton controlled by mirroring a therapist’s hand, built by a team of four, where I developed all the software, including the stereo-camera 3D hand pose estimation. I also ranked 34th out of 192 in a Kaggle chest X-ray competition, classifying 14 conditions with a ConvNeXt-based deep learning pipeline. In a quadcopter project, I built a MATLAB/Simulink pipeline and benchmarked Simple Adaptive Control against PID, LQR and LQI under model mismatch. Alongside my studies I worked as a private engineering tutor and volunteered as an English tutor with the ENGin program.</p>
+<p>At the moment I am an MSc student in Computer Science for Autonomous Systems at Eötvös Loránd University, studying on the Stipendium Hungaricum scholarship. My main abilities are Python, PyTorch and TensorFlow, computer vision and deep learning, and control and simulation in MATLAB/Simulink, together with C/C++, ROS and Git. I am interested in robot autonomy, especially surgical robotics, medical imaging, and perception and control for autonomous systems. I enjoy working in teams. I speak Arabic natively and English at C1 level, and I am learning Hungarian and have a basic level of French.</p>
+<p>I am looking for part-time, internship or research opportunities where I can apply these skills in robotics and AI. My long-term goal is to increase the autonomy of robots in the operating room. To get there, I plan to finish my MSc in spring 2028 and pursue research and engineering work on perception and control for autonomous surgical systems.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="proj">
+<h3>MirrorGlove: hand exoskeleton with therapist-mirroring control</h3>
+<p class="meta">Graduation project, team of 4, January 2024 to August 2025</p>
+<p>I developed all the software: stereo-camera 3D hand pose estimation (MediaPipe, MMPose) that drives the exoskeleton, plus a comparison of hand pose models on accuracy versus computational efficiency. With my mechanical teammates I helped build a prototype from scratch and turned its friction and encoder-resolution limits into the next design iteration.</p>
+<p><a href="https://github.com/RoboZATA/3D-Hand-Pose-Estimation-StereoCamera-Mediapipe-MMPose">Code on GitHub</a></p>
+</div>
+<div class="proj">
+<h3>Chest X-ray classification</h3>
+<p class="meta">Kaggle competition, rank 34 of 192, 2025, two-person team</p>
+<p>Multi-label classification of 14 chest-disease conditions from X-ray images. I built the Python training pipeline: ConvNeXt with a label-attention head, asymmetric focal loss for class imbalance, patient-wise cross-validation and ensembling, reaching a leaderboard AUROC of 0.930.</p>
+<p><a href="https://github.com/zkark/xray-label-attention">Code on GitHub</a></p>
+</div>
+<div class="proj">
+<h3>Quadcopter trajectory tracking with Simple Adaptive Control</h3>
+<p class="meta">MATLAB/Simulink, 2023 to 2026</p>
+<p>A reproducible MATLAB pipeline from trajectory generation and linearization to controller design, simulation and metrics. It benchmarks Simple Adaptive Control against PID, LQR and LQI under model mismatch, and is published as an open-source repository (MIT) with documented results and known limitations.</p>
+<p><a href="https://github.com/zkark/quadcopter-sac">Code on GitHub</a></p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<dl>
+<dt>Programming</dt><dd>Python (main language), C/C++, MATLAB/Simulink, Git/GitHub</dd>
+<dt>Data and ML</dt><dd>PyTorch, TensorFlow/Keras, scikit-learn, computer vision, multi-label image classification, cross-validation, dataset handling</dd>
+<dt>Perception and tools</dt><dd>Stereo-camera 3D hand pose estimation (MediaPipe, MMPose), digital signal processing, ROS, Arduino, CAD</dd>
+<dt>Languages</dt><dd>Arabic (native), English (C1), Hungarian (beginner), French (elementary)</dd>
+</dl>
+</section>
+
+<section id="education">
+<h2>Education and experience</h2>
+<dl>
+<dt>2026 to 2028</dt><dd>MSc, Computer Science for Autonomous Systems, Eötvös Loránd University (ELTE), Budapest. Stipendium Hungaricum scholarship.</dd>
+<dt>2020 to 2025</dt><dd>B.Eng., Robotics and Intelligent Systems, Manara University. Mention: Very Good.</dd>
+<dt>Tutoring</dt><dd>Private engineering tutor for one semester (5 students: Linear Algebra, Calculus, Differential Equations, Modeling and Simulation). Volunteer English tutor with ENGin, August 2025 to January 2026.</dd>
+<dt>2020</dt><dd>Honorable Mention, International Mathematical Modeling Challenge.</dd>
+</dl>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:zain.soliman2255@gmail.com">zain.soliman2255@gmail.com</a><br>
+LinkedIn: <a href="https://www.linkedin.com/in/zain-soliman-4410863a2/">linkedin.com/in/zain-soliman-4410863a2</a><br>
+GitHub: <a href="https://github.com/zkark">github.com/zkark</a></p>
+</section>
+</div>
+
+<footer><div class="wrap">© 2026 Zain Soliman. Budapest, Hungary.</div></footer>
+
+<script>
+(function(){
+var s=document.getElementById('hand'),N='http://www.w3.org/2000/svg';
+var chains=[[[100,172],[78,152],[62,130],[51,108],[43,88]],
+[[100,172],[88,122],[86,90],[85,64],[84,42]],
+[[100,172],[104,116],[106,82],[107,54],[108,30]],
+[[100,172],[120,120],[126,90],[129,66],[132,46]],
+[[100,172],[134,130],[146,106],[154,88],[160,72]]];
+function mk(t,a){var e=document.createElementNS(N,t);for(var k in a)e.setAttribute(k,a[k]);s.appendChild(e);}
+chains.forEach(function(c){mk('polyline',{points:c.map(function(p){return p.join(',')}).join(' ')});});
+[[88,122,104,116],[104,116,120,120],[120,120,134,130]].forEach(function(l){mk('line',{x1:l[0],y1:l[1],x2:l[2],y2:l[3]});});
+var seen={};
+chains.forEach(function(c){c.forEach(function(p){var k=p.join();if(!seen[k]){seen[k]=1;mk('circle',{cx:p[0],cy:p[1],r:4});}});});
+})();
+</script>
+</body>
+</html>
